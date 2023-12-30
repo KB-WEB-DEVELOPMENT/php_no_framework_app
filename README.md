@@ -1,4 +1,4 @@
-The purpose of the project was to familiarize myself with Domain Driven Design (DDD) programming.
+The purpose of the project was to familiarize myself with <b>Domain Driven Design (DDD)</b> programming.
 
 I refer you to P. Louys book (<b>"Professional PHP - Building maintainable and secure applications"</b>, 2006) for the details.
 
@@ -28,6 +28,8 @@ The project touches on the following topics:
 - Authentication
 - Authorization
 
-Remarks : project designed for php 7.1 or above
+Remarks : 
 
-Error in the book (page 195 : file src/Framework/Rbac/CurrentUserFactory.php is not used anywhere)
+- project designed for php 7.1 or above
+
+- Error in the book (page 195 : file src/Framework/Rbac/CurrentUserFactory.php is not used anywhere)
