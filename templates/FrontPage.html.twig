@@ -1,0 +1,18 @@
+{% extends 'Layout.html.twig' %}
+
+{% block content %}
+    {% include 'FlashMessages.html.twig' %}
+{% endblock %}
+
+{% block content %}
+    <ol>
+        {% for submission in submissions %}
+            <li>
+                <a href="{{ submission.url|e('html_attr') }}">
+                    {{ submission.title|raw }}
+                </a>
+                <small>submitted by {{ submission.author }}</small>
+            </li>
+        {% endfor %}
+    </ol>
+{% endblock %}
